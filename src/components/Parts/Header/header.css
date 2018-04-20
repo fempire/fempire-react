@@ -1,4 +1,23 @@
 header {
     color: white;
     background-color: #E57AFE;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+header ul {
+    display: flex;
+    margin: 0;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+header ul li {
+    margin-left:10px;
 }

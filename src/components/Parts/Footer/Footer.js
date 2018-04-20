@@ -1,19 +1,13 @@
 import React, { Component } from 'react';
-import './App.css';
+import './footer.css';
 
-class App extends Component {
+class Footer extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <h1 className="App-title">Welcome to Fempire</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
+      <footer>
+      </footer>
     );
   }
 }
 
-export default App;
+export default Footer;
