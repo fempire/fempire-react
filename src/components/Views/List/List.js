@@ -1,16 +1,18 @@
 import React, { Component } from 'react';
 import './list.css';
+import ListItem from "./ListItem";
+
+const NAMES = [
+    "katerina", "maria", "xristina", "marina", "kirki"
+];
 
 class List extends Component {
   render() {
     return (
-      <div>
-        That's my list
-        <p>ge</p>
-        <p>ge</p>
-        <p>ge</p>
-        <p>ge</p>
-        <p>ge</p>
+      <div className="list">
+          {NAMES.map(name => (
+              <ListItem key={name} info={name}/>
+          ))}
       </div>
     );
   }
