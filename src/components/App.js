@@ -14,7 +14,7 @@ class App extends Component {
       <div>
           <Header/>
           <Router history={history}>
-            <div>
+            <div id="content">
                 {VIEWS.map((route, index) => (
                     <Route key={index}
                         path={routes[route].path}
