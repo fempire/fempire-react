@@ -22,9 +22,24 @@
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
-@media (max-width: 450px) {
+@media (max-width: 900px) {
+
     .list-item {
         flex-grow: 1;
         height: auto;
+    }
+}
+
+@media (max-width: 1334px) {
+
+    .list-item {
+        flex-grow: 1;
+    }
+}
+
+@media (min-width: 1335px) {
+
+    .list-item {
+        flex-grow: 1;
     }
 }

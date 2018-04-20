@@ -9,6 +9,7 @@ const VIEWS = Object.keys(routes);
 const history = createHistory();
 
 class App extends Component {
+
   render() {
     return (
       <div>
