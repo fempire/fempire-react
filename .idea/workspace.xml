@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c62eef18-386e-499f-8653-fce89d917eab" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/components/Parts/Header/header.css" afterPath="$PROJECT_DIR$/src/components/Parts/Header/header.css" />
-      <change beforePath="$PROJECT_DIR$/src/components/Views/About/About.js" afterPath="$PROJECT_DIR$/src/components/Views/About/About.js" />
-      <change beforePath="$PROJECT_DIR$/src/components/Views/List/List.js" afterPath="$PROJECT_DIR$/src/components/Views/List/List.js" />
-      <change beforePath="$PROJECT_DIR$/src/components/Views/List/list.css" afterPath="$PROJECT_DIR$/src/components/Views/List/list.css" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -39,6 +36,19 @@
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.old.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.old.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="36">
+                <caret line="2" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -87,6 +97,7 @@
         <option value="$PROJECT_DIR$/src/components/Views/List/List.js" />
         <option value="$PROJECT_DIR$/src/components/Parts/Header/header.css" />
         <option value="$PROJECT_DIR$/src/components/Views/List/list.css" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -245,12 +256,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1524209166510</updated>
-      <workItem from="1524209167700" duration="6540000" />
+      <workItem from="1524209167700" duration="6606000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6540000" />
+    <option name="totallyTimeSpent" value="6606000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="42" y="-4" width="1879" height="1085" extended-state="6" />
@@ -445,6 +456,28 @@
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.old.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="36">
+            <caret line="2" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="72">
+            <caret line="4" column="82" lean-forward="false" selection-start-line="4" selection-start-column="82" selection-end-line="4" selection-end-column="82" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
