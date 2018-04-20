@@ -32,7 +32,9 @@ class Header extends Component {
                     <a className="sidedrawer-icon" onClick={() => this.openNav()}>☰</a>
                     <a href={routes["00_home"].path}>Fempire</a>
                 </div>
-                <div className="top-menu">
+
+                <div id="cover" onClick={() => this.closeNav()}/>
+                <div id="sidenav" className="sidenav">
                     <ul>
                         {VIEWS.map((route, index) => (
                             <li key={index}>
@@ -41,8 +43,7 @@ class Header extends Component {
                         ))}
                     </ul>
                 </div>
-                <div id="cover" onClick={() => this.closeNav()}/>
-                <div id="sidenav" className="sidenav">
+                <div className="top-menu">
                     <ul>
                         {VIEWS.map((route, index) => (
                             <li key={index}>
