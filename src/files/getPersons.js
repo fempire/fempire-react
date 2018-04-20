@@ -5,19 +5,19 @@ function getPersons() {
         .then((response) => {
             return response.text()
         }).then((text) => {
-            console.log(text);
+            // console.log(text);
             let regex = new RegExp('^####');
-            console.log(text.indexOf('Fempire'));
-            console.log(text[1], text[2], text[8], text[9]);
+            // console.log(text.indexOf('Fempire'));
+            // console.log(text[1], text[2], text[8], text[9]);
             let newtext = text.split(text[9]);
-            console.log(newtext, typeof text[9]);
+            // console.log(newtext, typeof text[9]);
             let indices = [];
             newtext.map((line, index) => {
                if (line.startsWith('####')) {
                     indices.push(index);
                }
             });
-            console.log(indices);
+            // console.log(indices);
             let names = [];
             for (let i=0; i<indices.length; i++) {
                 if (i!==indices.length) {
@@ -33,7 +33,7 @@ function getPersons() {
                 }
             }
             console.log(names);
-            return text;
+            return names;
         });
 }
 
