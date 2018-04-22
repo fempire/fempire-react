@@ -1,0 +1,91 @@
+header {
+    color: white;
+    background-color: #E57AFE;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+header .top-menu ul {
+    display: flex;
+    margin: 0;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+header .top-menu ul li {
+    margin-left:10px;
+}
+
+header .row {
+    display: flex;
+    flex-direction: row;
+}
+
+.sidedrawer-icon {
+   display: none;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.top-menu {
+    display: block;
+}
+
+.sidenav ul {
+   list-style-type: none;
+    padding: 0;
+}
+
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 70vw; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 4; /* Stay on top */
+    top: 0;
+    left: -70vw;
+    background-color: #212121;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    font-weight: bold;
+}
+
+.sidenav a {
+    padding: 5px 10px;
+    text-decoration: none;
+    display: block;
+    transition: 0.3s
+}
+
+.noclick {
+    pointer-events: none;
+    z-index: -999;
+    height: 89vh;
+    overflow: hidden;
+}
+
+.black-cover {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(10, 10, 10, 0.54);
+    z-index: 3;
+}
+
+@media (max-width: 450px) {
+    .sidedrawer-icon {
+        display: block;
+    }
+
+    .top-menu {
+        display: none;
+    }
+}
